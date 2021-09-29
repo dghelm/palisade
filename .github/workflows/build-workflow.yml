@@ -1,4 +1,4 @@
-name: Build & Push to IPFS
+name: Build & Push to Skynet
 on: push
 
 jobs:
@@ -92,10 +92,10 @@ jobs:
       #     name: .release
       #     path: .release
 
-      - name: Add Deploy Comment
-        uses: machine-learning-apps/pr-comment@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          path: .release-notes
-        if: ${{ github.event_name == 'pull_request' }}
+      # - name: Add Deploy Comment
+      #   uses: machine-learning-apps/pr-comment@master
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     path: .release-notes
+      #   if: ${{ github.event_name == 'pull_request' }}
