@@ -1,6 +1,7 @@
 {
-  "short_name": "Compound",
-  "name": "Compound Finance",
+  "short_name": "Compound UNOFFICIAL",
+  "name": "Compound Finance UNOFFICIAL",
+  "description": "Supply or borrow assets from the Compound protocol, and participate in community governance.",
   "icons": [
     {
       "src": "images/compound-192.png",
